@@ -1,4 +1,4 @@
-class day2 {
+class Day002 {
   public static void main(String args[]){
         
     boolean var1;
