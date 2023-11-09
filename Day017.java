@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class day17 {
+public class Day017 {
     public static void main(String[] args) {
         Scanner isc = new Scanner(System.in);
         char huruf;
