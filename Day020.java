@@ -12,7 +12,7 @@ class biodata{
     void Lengkap(){System.out.println("Perkenalkan nama saya "+nama +" saya memiliki umur "+umur +" dan memiliki tinggi badan "+tinggiBadan);}
 }
 
-public class day20 {
+public class Day020 {
     public static void main(String[] args) {
         biodata iscBiodata = new biodata("Muh ryan Nurwangsah",20,155.7);
 
