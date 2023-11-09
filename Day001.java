@@ -1,4 +1,4 @@
-public class day1 {
+public class Day001 {
     public static void main(String[] args) {
  
         String nama = "MUH RYAN NURWANGSAH";
