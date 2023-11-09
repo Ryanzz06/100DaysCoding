@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class day22 {
+public class Day022 {
 
     public static void main(String[] args) {
         String lampu;
