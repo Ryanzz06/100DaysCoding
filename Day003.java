@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class day3 {
+public class Day003 {
     public static void main(String[] args){
         String nama;
         
