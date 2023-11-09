@@ -1,4 +1,4 @@
-public class day14 {
+public class Day014 {
     public static void main(String[] args) {
 
         Long nilai1 = Long.valueOf(900000000000000L);
