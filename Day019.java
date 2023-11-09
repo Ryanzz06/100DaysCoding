@@ -1,4 +1,4 @@
-public class day19 {
+public class Day019 {
     public static void main(String[] args) {
         int isc = 42;
         String isc1 = String.valueOf(isc);
