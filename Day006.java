@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class day6 {
+public class Day006 {
     public static void main(String[] args){
         Scanner isc = new Scanner(System.in);
         int penjumlahan,pengurangan,perkalian,pembagian,a,b;
