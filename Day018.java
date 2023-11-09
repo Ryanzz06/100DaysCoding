@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class day18 {
+public class Day018 {
     public static void main(String[] args) {
 
         BigDecimal nilai1 = new BigDecimal("10.5");
