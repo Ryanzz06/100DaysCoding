@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class day8Tipedata {
+public class Day008 {
     public static void main(String[] args) {
         Scanner isc = new Scanner(System.in);
         String nama;
