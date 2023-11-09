@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-public class day16 {
+public class Day016 {
     public static void main(String[] args) {
         BigInteger nilai1 = new BigInteger("12345678901011121314151617181920212223");
         BigInteger nilai2 = new BigInteger("1098765432120191817161514131211");
