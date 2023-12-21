@@ -33,6 +33,10 @@ def kelilingPersegiPanjang(panjang,lebar):
     keliling = (2*panjang) + (2*lebar)
     return keliling
 
+def hitungGaji(gajiDasar,tunjungan,bonus,pajak):
+    totalGaji = (gajiDasar + tunjungan + bonus)/pajak 
+    return totalGaji
+
 def main():
     while True:
         print ("pilihlah menu ")
@@ -44,6 +48,7 @@ def main():
         print ("6. Trapesium")
         print ("7. Keliling Persegi")
         print ("8. Keliling Persegi Panjang")
+        print ("9. Hitung total gaji")
 
         pilih = int(input("pilih menu : "))
 
@@ -96,6 +101,14 @@ def main():
             lebar = int(input("Masukkan nilai lebar "))
             keliling = kelilingPersegiPanjang(panjang,lebar)
             print(keliling)
+
+        elif pilih == 9:
+            gajiDasar = float(input("Masukkan nilai Gaji Dasar "))
+            tunjungan = float(input("Masukkan nilai Tunjangan "))
+            bonus = float(input("Masukkan nilai Bonus "))
+            pajak = float(input("Masukkan nilai Pajak "))
+            totalGaji = hitungGaji(gajiDasar,tunjungan,bonus,pajak)
+            print(totalGaji)
 
         else:
             print("pilih yang benar")
